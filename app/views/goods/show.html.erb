@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @good.title %>
+</p>
+
+<p>
+  <strong>Content:</strong>
+  <%= @good.content %>
+</p>
+
+<p>
+  <strong>Client:</strong>
+  <%= @good.client_id %>
+</p>
+
+<%= link_to 'Edit', edit_good_path(@good) %> |
+<%= link_to 'Back', goods_path %>
